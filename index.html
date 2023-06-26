@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-dark text-light">
+    <section>
+        <div class="container my-5">
+            <div class="title m-5">
+                <h1 class="fw-bold text-secondary fs-2">Bookmarker</h1>
+            </div>    
+            <div class="outer-layer border-bottom border-top border-dark px-5">
+                <div class="bookmark-form bg-secondary bg-opacity-25 text-center rounded-2 py-5 my-4">
+                    <h2 class="">Bookmark your favorite sites</h2>
+                    <label for="siteName" class="my-3">Site Name</label>
+                    <input type="text" id="siteName" placeholder="Bookmark Name" class="form-control w-75 mx-auto">
+                    <p id='NameError'class="border border-2 rounded-2 border-danger w-75 mx-auto bg-danger bg-opacity-50 mt-3 fs-5 fw-semibold bg-gradient d-none">Name is Required</p>
+                    <label for="siteURL" class="my-3">Site URL</label>
+                    <input type="text" id="siteURL" placeholder="Website URL" class="form-control w-75 mx-auto">
+                    <p id='UrlError'class="border border-2 rounded-2 border-danger w-75 mx-auto bg-danger bg-opacity-50 mt-3 fs-5 fw-semibold bg-gradient d-none">URL Field is Required</p>
+                    <button class="btn btn-success mt-3">Submit</button>
+                </div>
+                <div class="saved-bookmarks my-4">
+                </div>
+            </div>
+            <p class="text-secondary fw-semibold opacity-75 ">© 2019 Bookmarker Inc.</p>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
